@@ -1,0 +1,12 @@
+@import url(_variaveis.css);
+@import url(_reset.css);
+
+body{
+    font-family: var(--familia-corpo);
+    font-weight: var(--tamanho-corpo);
+    background: url(../../img/fundo-textura.png), url(../../img/fundo-linhas.png);
+    background-position: center;
+}
+.container{
+    padding: 0 1rem;
+}
